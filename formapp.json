@@ -1,0 +1,43 @@
+{
+    "form": {
+        "title": "Processo FormApp",
+        "userName": "João",
+        "fields": [
+            {
+                "id": "TEXTO1",
+                "name": "NOME_PLANO",
+                "label": "Nome do Plano",
+                "type": "TEXT",
+                "maxLength": 80,
+                "visible": true
+            },
+            {
+                "id": "TEXTOAREA1",
+                "name": "DESCRICAO_PLANO",
+                "label": "Descricao do Plano",
+                "type": "TEXTAREA",
+                "maxLength": 100,
+                "rows":4,
+                "cols":50,
+                "visible": true
+            },
+            {
+                "id": "TEXTO3",
+                "name": "TEXTO3",
+                "label": "TEXTO3",
+                "type": "TEXT",
+                "maxLength": 100,
+                "visible": false
+            },
+            {
+                "id": "TEXTO2",
+                "name": "RESP_PLANO",
+                "label": "Responsavel pelo Plano",
+                "type": "TEXT",
+                "maxLength": 25,
+                "visible": true,
+                "value": "Baltz"
+            }
+        ]
+    }
+}
